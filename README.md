@@ -5,7 +5,7 @@
 - 
 
 
-# Implementing Service Endpoints
+# Implementing Service Endpoints #232
 - Service endpoints have to be enabled from the azure virtual network and from the azure resource such as the key vault
 - We could manual enter the public IP address of the virtual machine in the Azure Key Vault's firewall rule and set to allow access BUT
 - A secure way would be enabling service endpoints
