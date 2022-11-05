@@ -9,6 +9,7 @@
 - VM's connecting to the Azure Storage Account will be connecting to the Azure Storage Account's Public IP.
 - The Azure Storage Account will see the connection from the virtual machine's Private IP address.
 - When the Service Endpoint is enabled for the subnet, everything access will be blocked except for the virtual machine is that subnet where the service endpoint was created.
+- Connection is going over Microsoft's backbone network and never over the internet. It is still connecting via the Storage account's public IP.
 
 <p align="center">
   
@@ -64,6 +65,8 @@
 # Important:
 - The connection between a virtual machine and the azure resource will appear as if the connection is happening between two NIC and inside the subnet.
 - The azure service will get an NIC card and private IP address.
+- Connection never leaves the subnet where the private endpoint is created. It appears like the connection is from a resource on the same subnet because the Storage Account has an NIC just like the VM.
+
 
 <p align="center">
   
