@@ -4,6 +4,12 @@
 - Service endpoints helps secure communication between virtual machines in a virtual network and resources in your subscription.
 - They also limit public access to some Azure services to a Vnet or a subnet.
 
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/196273560-2c8b7d05-ac91-41fd-a58d-7b0263f7285d.png" height="70%" width="70%" alt="service endpoints"/>
+
+<p/>
+
 
 # Example
 - By default, Azure Storage accounts are accessible to the public to anyone with an internet connection. 
