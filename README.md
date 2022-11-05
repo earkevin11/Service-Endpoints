@@ -1,7 +1,7 @@
 # Service-Endpoints
 
 # What are Service-Endpoints?
-- Service endpoints helps secure communication between virtual machines in a virtual network and resources in your subscription.
+- Service endpoints helps secure communication between virtual machines in a virtual network AND the resources in your subscription.
 - They also limit public access to some Azure services to a Vnet or a subnet.
 
 # Important Note: 
