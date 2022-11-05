@@ -70,6 +70,6 @@
 
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/196273511-8456071f-5d70-4da3-8123-f2503250aa23.png" height="70%" width="70%" alt="private endpoints"/>
+<img src="https://user-images.githubusercontent.com/104326475/200143841-6582e603-2b78-4945-a314-6cc33cea435e.png" height="70%" width="70%" alt="private endpoints"/>
 
 <p/>
